@@ -82,13 +82,14 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url(./images/BACKGROUND.PNG)  no-repeat;
-    background-position: 85rem 9rem;
-    background-size: 40%; 
+    background: url(./images/background.PNG)  no-repeat;
+    background-position: center;
+    background-size: cover; 
 }
 
 .home-content {
     max-width: 60rem;
+    z-index: 99;
 
 }
 
@@ -713,6 +714,33 @@ span {
     .navbar.active a {
         transform: translateX(0);
         transition-delay: .25s;
+    }
+    .home{
+        background-size: contain;
+    }
+    
+    .home-imgHover {
+        pointer-events: none;
+        background: var(--bg-color);
+        opacity: .6;
+    }
+}
 
+@media (max-width: 520px) {
+    html{
+        font-size: 50%;
+    }
+   
+    .home-content h1{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-sci{
+    
+        width: 160px;
+    }
+    .home-sci a{
+        width: 38px;
+        height: 38px;
     }
 }
