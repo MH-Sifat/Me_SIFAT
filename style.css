@@ -900,9 +900,7 @@ background: var(--second-bg-color);
         padding: 10rem 4% 5rem 5%;
     }
 
-    .contact form .input-box .input-field {
-        width: 100%;
-    }
+    
 
     .footer {
         flex-direction: column-reverse;
@@ -934,9 +932,7 @@ background: var(--second-bg-color);
     .home-content h1 {
         font-size: 5rem;
     }
-    #contact{
-        width: 50%;
-    }
+   
 }
 
 
